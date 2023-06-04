@@ -5,7 +5,7 @@ import {AiOutlineUser ,AiOutlineShoppingCart} from "react-icons/ai"
 import {TiMessages} from "react-icons/ti"
 import {CiSaveDown2} from "react-icons/ci"
 import {Link} from "react-router-dom"
-import {Avatar , Whisper , Popover} from "rsuite"
+import {Avatar } from "rsuite"
 
 interface SidebBarProps {
     children:ReactNode
