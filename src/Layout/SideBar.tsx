@@ -50,7 +50,7 @@ export default function SideBar({children}:SidebBarProps) {
                 }
             </div>
             
-            <div className={` ${open &&"flex"} items-center gap-3.5 mt-16 lg:mt-40`}>
+            <div className={` ${open &&"flex"} items-center gap-3.5 mt-11 lg:mt-40`}>
                 <Avatar circle size="md" src="https://firebasestorage.googleapis.com/v0/b/sandbox-a5bfe.appspot.com/o/e7a081488a533cc656e5f03f382d0d09.jpg?alt=media&token=3b6241cb-31d3-4982-8919-294b2b0751ec&_gl=1*1rcyn42*_ga*MjAyNzk5MTE1Ny4xNjgzNTUyMzQw*_ga_CW55HF8NVT*MTY4NTg4NzkzMy40LjEuMTY4NTg4Nzk5Ny4wLjAuMA.." />
                 <div>
                     <p className={`font-geologica whitespace-pre font-bold ${!open && "opacity-0 overflow-hidden"}`}>sijirama</p>
